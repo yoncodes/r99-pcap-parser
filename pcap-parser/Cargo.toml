@@ -1,0 +1,16 @@
+[package]
+name = "pcap-parser"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+
+pcap-file.workspace = true
+byteorder.workspace = true
+thiserror.workspace = true
+num_enum.workspace = true
+tokio.workspace = true
+prost.workspace = true
+sonettobuf.workspace = true
+serde_json.workspace = true
+clap.workspace = true
